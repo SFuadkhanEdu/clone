@@ -1,0 +1,31 @@
+Move Files/Directories
+To move the content of a file/directory to another directory, you just use the mv command. This command doesn’t create a copy/duplicate of files or directories.
+
+To move the contents of a directory, use the following command:
+
+Syntax:
+
+	mv <CurrentDirectory>/* <NewDirectory>
+For example, to move all the contents of a directory called repo1 to a directory named repo2 you would type:
+
+mv animals/* birds
+In this case, if repo2(destination directory) exists, the contents of repo1 directory will be moved to the birds directory and animals directory will disappear. However, if the birds directory doesn’t exist, it will be created and then the contents of animals directory will be moved. The animals directory will disappear after the contents are moved.
+
+The Syntax for moving files is:
+
+	mv <FileName> <DestinationFolder>
+For example, to move a file called repo1 into directory repo2, you would type:
+
+	mv repo1 repo2
+mv command is used to rename files and directories. Renaming files and directories is simply a case of "moving" a file or a directory from one name to another.
+
+The general expression for renaming files is as follows:
+
+mv <old-Name> <new-Name>
+For example, to rename file orenk1 to ornek2, you would type:
+
+mv ornek1 ornek2
+To rename a directory named test1 to test2, you simply type:
+
+mv test1 test2
+The destination location must be the same with the source location. Also, the filename must be different.
